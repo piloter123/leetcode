@@ -7,4 +7,5 @@ def foo(a):
     print 'ok',a
 
 if __name__ == '__main__':
-    foo(1)
+    foo(2)
+    print  foo.__doc__
