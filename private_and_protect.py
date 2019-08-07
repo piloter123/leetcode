@@ -18,4 +18,4 @@ if __name__ == '__main__':
     p._sexx()
     # print p.__age 私有变量只有类对象自己能放问，子类对象都不可以访问
     print p.get_age()
-    print p._Person__age#也可以访问私有变量，但最好不
+    print p._Person__age#也可以访问私有变量，但最好不.
